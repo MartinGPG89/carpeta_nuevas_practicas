@@ -141,7 +141,7 @@ print(pares)
 '''
 
 # 5️⃣ Imprime cada número de la lista multiplicado por 3 usando while
-numeros = [1, 2, 3, 4, 5]
+'''numeros = [1, 2, 3, 4, 5]
 pos = 0
 
 while pos < len(numeros):
@@ -150,7 +150,7 @@ while pos < len(numeros):
     pos += 1
 
 
-
+'''
 
 
 
