@@ -83,33 +83,71 @@ print(con_a)
 '''
 
 # 🔟 Imprime cada nombre con la frase: "Hola, <nombre>!"
-nombres = ["Ana", "Luis", "Carlos", "Eva"]
+'''nombres = ["Ana", "Luis", "Carlos", "Eva"]
 
 for i in nombres:
     print(f'Hola, {i}')
+'''
 
 
+#WHILE
 
+# 1️⃣ Recorre la lista con while e imprime cada número
+'''numeros = [4, 8, 15, 16, 23, 42]
+pos = 0
 
+while pos < len(numeros):
+    print(numeros[pos])
 
+    pos += 1
+'''
 
+# 2️⃣ Imprime solo los números mayores que 10 usando while
+'''numeros = [3, 11, 7, 14, 2, 18]
+pos = 0
 
+while pos < len(numeros):
+    if numeros[pos] > 10:
+        print(numeros[pos])
 
+    pos += 1
+'''
 
+# 3️⃣ Suma todos los números de la lista usando while y muestra el resultado
+'''numeros = [5, 10, 15, 20]
+pos = 0
+suma = 0
 
+while pos < len(numeros):
+    suma += numeros[pos]
 
+    pos += 1
 
+print(suma)
+'''
 
+# 4️⃣ Crea una lista vacía 'pares' y añade solo los números pares de la lista original usando while
+'''numeros = [9, 4, 7, 2, 6, 13]
+pares = []
+pos = 0
 
+while pos < len(numeros):
+    if numeros[pos] % 2 == 0:
+        pares.append(numeros[pos])
 
+    pos += 1
 
+print(pares)
+'''
 
+# 5️⃣ Imprime cada número de la lista multiplicado por 3 usando while
+numeros = [1, 2, 3, 4, 5]
+pos = 0
 
+while pos < len(numeros):
+    print(numeros[pos] * 3)
 
-
-
-
-
+    pos += 1
 
 
 
