@@ -43,7 +43,19 @@ print(f'Hola, como estas {saludo('Bob')}')
 print(numero(int(input('Introduce un numero: '))))
 '''
 
+#SUBIMOS EL NIVEL
 
+# 1️⃣ Crea una función que reciba una lista de números y devuelva la lista con cada número al cuadrado
+
+def cuadrado(num):
+    new_arr=[]
+    for i in num:
+        square=i*i
+        new_arr.append(square)
+    return new_arr
+    
+
+print(cuadrado([1, 2, 3]))
 
 
 
