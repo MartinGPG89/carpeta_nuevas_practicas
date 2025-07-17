@@ -61,4 +61,3 @@ print(cuadrado([1, 2, 3]))
 
 
 
-

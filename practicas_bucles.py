@@ -148,10 +148,7 @@ while pos < len(numeros):
     print(numeros[pos] * 3)
 
     pos += 1
-
-
 '''
-
 
 
 

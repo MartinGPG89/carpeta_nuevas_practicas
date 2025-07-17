@@ -146,3 +146,19 @@ for i in palabras:
     if i.startswith(i[-1]) and i.endswith(i[0]):
         print(i)
 '''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
